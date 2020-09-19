@@ -20,3 +20,40 @@
     }
 }
 
+.total-budget-section {
+    display: flex;
+    height: 250px;
+    background: $dark;
+
+    //text align center
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-family: 'Lato';
+        font-weight: 300;
+        font-size: 58px;
+        color: white;
+
+        &.green {
+            color: lighten($green, 15%);
+        }
+        &.red {
+            color: lighten($red, 15%);
+        }
+    }
+}
+
+.add-item-section {
+    display: flex;
+       
+    //text align center
+    justify-content: center;
+    align-items: center;
+    
+
+    .add-item-container {
+        width: 680px;
+    }
+}
+
